@@ -283,7 +283,7 @@ main{
 /*---------------------------------Section 4--*/
 .section4{
     width: 1017px;
-    height: 530px;
+    height: 300px;
     border-top: 2px solid #373867;
     border-bottom: 2px solid #373867;
     margin-top: 15px;
@@ -295,16 +295,14 @@ main{
 }
 .formLabel{
     display: inline-block;
-    float: left;
-    height:60px;
+    float: left;    
     width: 395px;
     padding-left: 30px;
+    padding-right: 100px;
 }
-.formMessage{
-    display: inline-block;
-    float: right;
-    width: 395px;
-    padding-left: 600px;    
+.labelMessage{
+    display: block;
+    pl
 }
 .label{
     display: block;
@@ -321,18 +319,47 @@ label{
     font-weight: bold;
     padding-bottom: 7px;
     padding-top: 29px;
+    padding-right: 60px;
 }
-
 fieldset{
     display: inline-block;
-    width: 100%;
+    width:auto;
+    border:0;
 }
 .contactArea input{
     display: inline-block;
 }
-.cheks{
-    display: inline;
-    w
+.contactArea{
+    padding-left: 30px;
+}
+.checks input{
+    width: auto;
+    margin-right:12px;
+}
+.checks{
+    padding-top: 10px;    
+}
+.buttonChecks{
+    width: 109px;
+    height: 24px;
+}
+#reset{
+    background-color: #fff;
+    border: #373867 solid 2px;
+    border-radius: 5px;
+    color: #373867;
+    font-weight: bold;
+    margin-left:159px;
+}
+#submit{
+    background-color: #373867;
+    border: #373867 solid 2px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;    
+}
+.contactArea{
+    padding-top: 10px;
 }
 /*-----------------------------------Section 5--*/
 .section5{
@@ -378,6 +405,7 @@ fieldset{
     padding-left: 30px;
     border-bottom: 2px solid #373867;
 }
+
 .divSection6{
     display: inline;
     width: 100%;
