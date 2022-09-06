@@ -10,7 +10,7 @@ body {
 p{
     line-height:1.6em;
 }
-/*----------------------------------------Header--*/
+/*-------------------------------------Header--*/
 header{
     position:fixed;
     z-index: 2;
@@ -42,7 +42,7 @@ a{
 a:hover{
     color: #46a37c;
 }
-/*---------------------------------------Aside--*/
+/*-------------------------------------Aside--*/
 aside{
     position:fixed;
     top: 90px;
@@ -84,6 +84,7 @@ aside{
     margin-top: 10px;
     line-height: 1.5;
     width:197px;
+    font-weight:100;
 }
 .sectionInfo{
     position: relative;
@@ -115,7 +116,7 @@ aside{
     padding-top: 29px;
     padding-bottom:19px;
 }
-/*-----------------------------------------Main--*/
+/*--------------------------------------Main--*/
 main{
     position: relative;
     top: 116px;
@@ -124,7 +125,7 @@ main{
     width: 1202px;
     margin-left: 42px;  
 }
-/*-------------------------------------Section 1--*/
+/*---------------------------------Section 1--*/
 .section1{
     height: 530px;
     border-bottom: 2px solid #373867;
@@ -150,7 +151,7 @@ main{
     width: 533px;
     padding-top: 61px;
     font-size:20px;
-    font-weight: lighter;
+    font-weight:300;
 }
 .section1 img{
     position: relative;
@@ -177,7 +178,7 @@ main{
     background-color: #AACE9B;
     color: #373867;
 }
-/*------------------------------------------Section 2--*/
+/*----------------------------------Section 2--*/
 .section2{
     height: 530px;
     border-bottom: 2px solid #373867;
@@ -191,34 +192,43 @@ main{
 }
 .section2 article{    
     display:inline-block;
-    position: relative;
-    width: 35%;
+    width: 40%;
     padding-left: 30px;
+    padding-bottom: ;
 }
 .article2 img{
-    display: block;
-    position: relative;
+    display:inline-block;
     width:100px;
+    margin-top: 10px;
+    float: left;
 }
 .article2 p{
     font-size: 12px;
+    font-weight: 100;
     width: 237px;
-    margin-top: 10px;
+    margin-top:5px;
     line-height: 15px;
+    border-top: 2px solid #373867;
+    padding-top:7px;
 }
 .section2 h4{
     font-size: 20px;
+    width: 237px;
 }
 .article2 div{
+    width: 40%;
     display: inline-block;
+    padding-left:31px;
+    padding-bottom: 60px;
+    margin-top: 13px;
 }
 /*----------------------------------Section 3--*/
 .section3{
     display: inline;
-    height: 530px;
-    border-bottom: 2px solid #373867;
+    height: 530px;    
     overflow: auto;
     overflow-y: hidden;
+    border-bottom: 2px solid #373867;
 }
 .scrollSection{
     overflow: auto;
@@ -269,4 +279,106 @@ main{
 }
 .scrollSection article{
     display: inline-block;
+}
+/*---------------------------------Section 4--*/
+.section4{
+    width: 1017px;
+    height: 530px;
+    border-top: 2px solid #373867;
+    border-bottom: 2px solid #373867;
+    margin-top: 15px;
+}
+.section4 h2{
+    padding-top: 18px; 
+    padding-left: 30px;
+    font-size: 25px bold;
+}
+.formLabel{
+    display: inline-block;
+    float: left;
+    height:60px;
+    width: 395px;
+    padding-left: 30px;
+}
+.formMessage{
+    display: inline-block;
+    float: right;
+    width: 395px;
+    padding-left: 600px;    
+}
+.label{
+    display: block;
+}
+input{
+    width:100%;
+}
+textarea{
+    width: 395px;
+    height: 100px; 
+}
+label{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 7px;
+    padding-top: 29px;
+}
+
+fieldset{
+    display: inline-block;
+    width: 100%;
+}
+.contactArea input{
+    display: inline-block;
+}
+.cheks{
+    display: inline;
+    w
+}
+/*-----------------------------------Section 5--*/
+.section5{
+    width: 1017px;
+    height: 450px;
+    padding-left: 30px;
+    border-bottom: 2px solid #373867;
+}
+.section5 img{
+    height: 250px;
+    width: 377px;
+    position: relative;
+    display: inline;
+    float: right;
+    padding-top:10px;
+    border-radius: 5px;
+}
+.section5 h2{
+    padding-top: 18px;
+
+}
+.section5 p{
+    width: 50%;
+    padding-top: 16px;
+}
+.section5 h3{
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-weight: normal;
+}
+#titleStory{
+    padding-top: 50px;
+}
+#paragraphStory{
+    display: inline;
+    width: 100%;
+}
+/*-----------------------------------Section 6--*/
+.section6{
+    display: inline-block;
+    width: 1017px;
+    height: 450px;
+    padding-left: 30px;
+    border-bottom: 2px solid #373867;
+}
+.divSection6{
+    display: inline;
+    width: 100%;
 }
