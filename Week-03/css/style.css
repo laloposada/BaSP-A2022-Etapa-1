@@ -401,12 +401,41 @@ fieldset{
 .section6{
     display: inline-block;
     width: 1017px;
-    height: 450px;
+    height: 150px;
     padding-left: 30px;
-    border-bottom: 2px solid #373867;
-}
+    border-bottom: 4px solid #373867;
 
+}
 .divSection6{
-    display: inline;
-    width: 100%;
+    display: inline-block;
+    width:auto;
+    margin-right:30%;
+    padding-top: 14px;
+}
+#support{
+    margin-right: 0;
+}
+.divSection6 h3{
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+.divSection6 ul{
+    padding-left: 30px;
+}
+/*--------------------------------Footer--*/
+.footer{
+    height: 313px;
+}
+.footer div{
+    margin-top: 200px;
+    margin-left:750px;
+}
+address{
+    margin-left:790px;
+    padding-top: 62px;
+}
+.footer p{
+    margin-top: 50px;
+    margin-left:580px;
+    font-size: 25px;
 }
