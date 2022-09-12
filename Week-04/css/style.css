@@ -1,0 +1,9 @@
+img {
+    display: none;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #AACE9B;
+}
