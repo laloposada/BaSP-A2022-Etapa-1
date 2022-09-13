@@ -19,3 +19,41 @@ header img {
 .logos-social {
     display: none;
 }
+@media screen and (min-width: 480px){
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        min-height: 0px;
+    }
+    .logo-header {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .logos-social img {
+        display: block;
+        justify-content: start;
+    }    
+    .logos-social {
+        display: flex;
+        justify-content: space-between;
+        width: 28%;
+        margin-right: 15px;
+        justify-content: end;
+    }
+    .logos-social a {
+        display: flex;
+        justify-content: center;
+        width: 22%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+    header button {
+        margin: auto;        
+        margin-bottom: 5px;
+        order: 1;
+        width: 100%;
+        margin: 0;
+    }
+}
