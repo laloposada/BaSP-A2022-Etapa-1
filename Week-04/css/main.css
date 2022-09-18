@@ -258,7 +258,39 @@ main {
     padding-left: 20px;
 }
 @media screen and (min-width: 480px){
-            
+    .section-main {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+        height: 28vh;
+    } 
+    .section-main h1 {
+        width: 40%;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    .section-main h3 {
+        width: 40%; 
+        margin: 10px 0;
+        text-align: left;
+    } 
+    .section-main p {
+        width: 40%;
+        margin: 0;
+        padding: 0;
+    }   
+    .section-main img {
+        width: 45%;
+        height: 100%;
+        order: 1;
+        box-sizing: border-box;        
+        margin: 0;
+    }
+    .section-main a  {
+
+    }       
 }
 
 
