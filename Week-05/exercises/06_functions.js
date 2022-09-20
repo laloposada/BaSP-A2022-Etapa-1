@@ -26,7 +26,7 @@ function functionAdd2 (c , d) {
         return console.log("Result: " + (c + d));
     }
 };
-
+functionAdd2 ("hello", 10);
 
 
 //c- Aparte, crear una función validate Integer que reciba un número como parámetro y devuelva verdadero si es un número entero.
@@ -72,8 +72,10 @@ function functionAdd2 (c, d) {
             }
         }
     }
-
-
+functionAdd2 (10.5 , 20);
+functionAdd2 (10 , 20.5);
+functionAdd2 (10.5 , 20.5);
+functionAdd2 (10 , 20);
 
 
 //e- Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de la función suma  
@@ -85,7 +87,7 @@ console.log("Exercise: 06-e");
 function integerValid (c, d) {
     if (validateInteger (c) == false) {
         alert("Error, it is decimal");
-        if ( validateInteger(p4) == false ) {
+        if ( validateInteger(d) == false ) {
             return console.log("Result: " + (Math.round(c) + Math.round(d)));
         } else {
             return console.log("Result: " + (Math.round(c) + d));
@@ -95,7 +97,7 @@ function integerValid (c, d) {
             alert("Error, it is decimal");
             return console.log("Result: " + (Math.round(d) + c));
         } else {
-            return console. log('The result is: ' + (p3 + p4));
+            return console. log('The result is: ' + (c + d));
         }
     }
 }
@@ -103,3 +105,7 @@ function integerValid (c, d) {
 function functionThree (a, b) {
     integerValid (a, b);
 }
+functionThree (10, 20.5);
+functionThree (10.5, 20.5);
+functionThree (10.5, 20);
+functionThree (10, 20);
