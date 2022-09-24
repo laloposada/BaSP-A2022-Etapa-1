@@ -1,0 +1,57 @@
+aside {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .aside-bar {
+        display: flex;
+        flex-direction: column;
+        background-color: #dfd4de;
+        position: fixed;
+        width: 20%;
+        margin: 100px 15px;
+        border-radius: 0 0 15px 15px;
+        padding-top: 20px;
+        font-family: roboto, serif;
+        padding-left: 20px;
+    }
+    .section-ul {
+        margin-top: 15px;
+    }
+    .section-ul li {
+        margin-top: 10px;
+        padding-bottom: 5px;
+    }
+    .section-ul a {
+        text-decoration: none;
+    }
+    #home {
+        text-decoration: underline;
+    }
+    aside h3 {
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 5px;
+    }
+    .section-get h3 {
+        padding-top: 15px;
+    }
+    .section-get p {
+        font-size: 10px;
+        width: 80%;
+    }
+    .section-info img {
+        display: flex;
+        max-height: 22px;
+        margin-right: 10px;        
+    }
+    .section-info {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .div-info {
+        display: flex;
+        flex-direction: row; 
+        font-size: 12px;
+        padding-top: 20px;
+    }
+}

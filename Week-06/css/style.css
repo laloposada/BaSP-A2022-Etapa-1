@@ -1,0 +1,14 @@
+* {
+    color: #373867;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    display: none;
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #AACE9B;
+}
+
