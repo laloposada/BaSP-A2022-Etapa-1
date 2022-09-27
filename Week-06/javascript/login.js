@@ -26,7 +26,7 @@ function passValidation() {
     var passTry = passwordInput.value;
     var feedbackPassword = document.getElementById("pass-feedback");
     var feedbackP = document.createElement("p");
-    if (passTry.value.length == 0) {
+    if (passTry.length == 0) {
         return;
     }
     if (passTry.length < 8) {
@@ -50,7 +50,7 @@ function passValidation() {
         return;
     }
     if (!hasNumber) {
-        feedbackEmail.innerText = "Password must contain at least a number.";
+        feedbackP.innerText = "Password must contain at least a number.";
         feedbackPassword.appendChild(feedbackP);
         feedbackPassword.classList.add("feedback-div-error");
         return;
@@ -66,7 +66,7 @@ function emailReset() {
 
 }
 function passwordReset() {
-    var feedbackPassword = document.getElementById("password-feedback");
+    var feedbackPassword = document.getElementById("pass-feedback");
     feedbackPassword.innerHTML = "";
     feedbackPassword.classList.remove("feedback-div-error");
 }
@@ -79,7 +79,7 @@ function submitAlert(e) {
     var passwordInput = document.getElementById("input-pass");
     var passwordStatus = document.getElementById("pass-feedback").firstChild;
     var passwordAnswer = "";
-    passwordStatus? passwordAnswer = "Error: " + emailStatus.innerHTML : passwordAnswer = password.value;
+    passwordStatus? passwordAnswer = "Error: " + emailStatus.innerHTML : passwordAnswer = passwordInput.value;
     if (!emailInput.value) emailAnswer = "Error : Empty email field.";
     if (!passwordInput.value) passwordAnswer = "Error : Empty password field.";
     var answer = emailAnswer + "\n" + passwordAnswer;
