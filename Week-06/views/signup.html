@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Web de la empresa de software Trackgenix">
+        <title>Sign up</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">        
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/sidebar.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/sign-up.css">
+        <script src="../javascript/sign-up.js"></script>
+    </head>
+    <body>        
+        <header>
+            <a href="#" class="logo-header"><img src="../img/logo.png" alt="Logo trackgenix"></a>
+            <button>▼</button>
+            <div class="logos-social">
+                <a href="#"><img src="../img/icon-header-twitter.png" alt="Logo Twitter" width="51"></a>
+                <a href="#"><img src="../img/icon-header-instagram.png" alt="Logo Instagram" width="51"></a>
+                <a href="#"><img src="../img/icon-header-linkedin.png" alt="Logo Linkedin" width="51"></a>
+                <a href="#"><img src="../img/icon-header-facebook.png" alt="Logo Facebook" width="51"></a>
+            </div>
+        </header>
+        <div class="display-flex">
+        <aside class="aside-bar">
+            <section class="section-ul">
+                <h3>Menu</h3>
+                <ul>                    
+                    <li id="home"><a href="">Home</a></li>
+                    <li><a href="">Sign up</a></li>
+                    <li><a href="">Sign in</a></li>
+                    <li><a href="">About us</a></li>
+                </ul>
+            </section>
+            <section class="section-get">
+                <h3>Get in touch</h3>
+                <p id="text-get">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnix. consectetur adipisicing elit. Magnipisicing elit. Magnix. consectetur adipisicing elit. M</p>
+            </section>
+            <section class="section-info">
+                <div class="div-info">
+                    <img src="../img/icon-aside-phone.png" alt="icon phone" width="20">
+                    <a href="tel:(000)000-0000">(000)000-0000</a>
+                </div>
+                <div class="div-info">
+                    <img src="../img/icon-aside-email.png" alt="icon email" width="20">
+                    <a href="mailto:information@untitled.tld">information@untitled.tld</a>
+                </div>
+                <div class="div-info">
+                    <img src="../img/icon-aside-address.png" alt="icon house" width="20">
+                    <p>1234 Somewhere Road #8254 Nashville, TN 00000-0000</p>
+                </div>
+            </section>
+        </aside>
+        <main>            
+            <form action="" class="register-form">
+                <h2>Register</h2>
+                <div class="div-columns">
+                <div class="sub-div">                    
+                    <div class="input">
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" class="border">
+                        <div class="validation-message" id="error-firstName"></div>
+                    </div>
+                    <div class="input">
+                        <label for="last-name">Last name</label>
+                        <input type="text" class="border">
+                        <div class="validation-message" id="error-lastName"></div>
+                    </div>
+                    <div class="input"> 
+                        <label for="dni">DNI</label>
+                        <input type="text" id="dni" class="border">
+                        <div class="validation-message" id="error-dni"></div>
+                    </div>
+                    <div class="input">
+                        <label for="birth-date">Birth date</label>
+                        <input type="date" id="birth-date" class="border">
+                        <div class="validation-message" id="error-birthDate"></div>
+                    </div>
+                    <div class="input">
+                        <label for="phone">Phone number</label>
+                        <input type="text" id="phone" class="border">
+                        <div class="validation-message" id="error-phone"></div>
+                    </div>
+                    <div class="input">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" class="border">
+                        <div class="validation-message" id="error-address"></div>
+                    </div>
+                </div>
+                <div class="sub-div">
+                    <div class="input"> 
+                        <label for="location">Location</label>
+                        <input type="text" id="location"  class="border">
+                        <div class="validation-message" id="error-location"></div>
+                    </div>
+                    <div class="input">
+                        <label for="postal-code">Postal code</label>
+                        <input type="text" id="postal-code" class="border">
+                        <div class="validation-message" id="erro-postalCode"></div>
+                    </div>
+                    <div class="input"> 
+                        <label for="email">Email</label>
+                        <input type="text" id="email" class="border">
+                        <div class="validation-message" id="error-email"></div>
+                    </div>
+                    <div class="input">
+                        <label for="repeat-email">Repeat email</label>
+                        <input type="text" id="repeat-email" class="border">
+                        <div class="validation-message" id="error-repeatEmail"></div>
+                    </div>
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="text" id="password" class="border">
+                        <div class="validation-message" id="error-password"></div>
+                    </div>
+                    <div class="input">
+                        <label for="repeat-password">Repeat password</label>
+                        <input type="text" id="repeat-password" class="border">
+                        <div class="validation-message" id="error-repeatPass"></div>
+                    </div>                    
+                </div>  
+                </div>  
+                <input type="submit" class="continue-button" value="Continue">           
+            </form>            
+        </main>        
+        </div>
+        <footer class="footer">
+            <div class="icons-footer">
+                <a href="#" ><img src="../img/icon-footer-twitter.png" alt="Logo Twitter" height="51"></a>
+                <a href="#" ><img src="../img/icon-footer-instagram.png" alt="Logo Instagram" height="51"></a>
+                <a href="#" ><img src="../img/icon-footer-linkedin.png" alt="Logo Linkedin" height="51"></a>
+                <a href="#" ><img src="../img/icon-footer-facebook.png" alt="Logo Facebook" height="51"></a>
+            </div>
+            <address>
+                Rosario, Argentina
+            </address>
+            <p>Copyright &copy; 2022 Radium Rocket. All rights reserved.</p>
+        </footer>    
+    </body>
+</html>

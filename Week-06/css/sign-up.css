@@ -1,0 +1,55 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px 1px;
+    margin: auto;
+    width: 90%;
+}
+.register-form h2 {
+    margin: auto;
+    padding: 40px 0 40px 0;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.register-form label {
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+.div-columns {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+.div-columns div {
+    padding: 5px 15px;
+}
+.sub-div {
+    margin-left: 50px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.input input {
+    border-radius: 3px;
+    border: #373867 solid 1px;
+}
+.continue-button {
+    display: flex;
+    margin: 30px auto;
+    background-color: #AACE9B;
+    width: 40%;
+    border: none;
+    border-radius: 2px;
+    color: #373867;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
