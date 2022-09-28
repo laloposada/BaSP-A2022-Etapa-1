@@ -7,8 +7,10 @@ We had to recreate the landing page on HTML.
 I put styles to the HTML document with CSS.
 ## Week 4 
 I made the website with responsive design.
-### Week 5
+## Week 5
 In week 5 we practiced javascript exercises.
-[GitHub Pages](https://laloposada.github.io/BaSP-A2022-Etapa-1/Week-04/index.html)
-## Author
+## Week 6
+We added the login and sign up pages.
+[GitHub Pages](https://laloposada.github.io/BaSP-A2022-Etapa-1/Week-06/index.html)
+### Author
 Created By Gonzalo Posada [@laloposada](https://github.com/laloposada)
