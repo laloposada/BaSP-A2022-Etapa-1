@@ -53,3 +53,11 @@
     align-items: center;
     height: 30px;
 }
+.validation-msg {
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    color: #F33413;
+    font-weight: bold;
+}
