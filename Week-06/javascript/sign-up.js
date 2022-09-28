@@ -221,13 +221,13 @@ window.onload = function() {
         var allNumbers = "0123456789";
         function hasNumbers(text) {
             for (i = 0; i< valueAddress.length; i++) {
-                if (numbers.indexOf(text.charAt(i),0)!=-1)
+                if (allNumbers.indexOf(text.charAt(i),0)!=-1)
                 return true;
             }
             return false;
         }
         if (!hasNumbers(valueAddress)) {
-            addressError.innerHTML = 'Must have numbers';
+            addressError.innerHTML = "Must have numbers.";
             address.classList.remove("green-border");
             address.classList.add("default-border");
             return false;
@@ -235,7 +235,7 @@ window.onload = function() {
         var abcABC = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚabcdefghijklmnopqrstuvwxyzáéíóú";
         function hasLetters(text) {
             for (i = 0; i< valueAddress.length; i++) {
-                if (AZaz.indexOf(text.charAt(i),0)!=-1)
+                if (abcABC.indexOf(text.charAt(i),0)!=-1)
                 return true;
             }
             return false;
